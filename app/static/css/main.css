@@ -1,0 +1,62 @@
+/* main.css */
+
+/* Use a custom font for the whole page */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  height: 60px;
+  padding: 0 20px;
+}
+
+/* Style the navbar links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+/* Change the link color on hover */
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Style the active link */
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+/* Style the h1 element */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #4CAF50;
+  margin-top: 20px;
+}
+
+/* Style the p element */
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Style the signup link */
+p a {
+  color: #4CAF50;
+  text-decoration: underline;
+}

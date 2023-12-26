@@ -1,0 +1,9 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+<div class="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'list' %}">todolist</a>
+    <a href="{% url 'signup' %}">register</a>
+    <a href="{% url 'login' %}">login</a>
+  </div>
